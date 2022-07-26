@@ -1,3 +1,13 @@
+# Custom instructions for Nate, by past Nate
+
+tl;dr, you want to get to a point where you can run `make handwired/dactyl_manuform/6x6:vial` in order to build the firmware.
+
+Clone the repo and then follow the directions at https://docs.qmk.fm/ to get the `qmk` CLI working in order for the make command above to work.
+
+If you want to change settings, start by looking at the keyboards\handwired\dactyl_manuform\6x6\vial directory.
+
+After the firmware is compiled, it's name should be `handwired_dactyl_manuform_6x6_promicro_vial.hex` at which point you can flash it onto both halves of the keyboard by using the qmk toolbox auto-flasher tool (don't forget to hit the physical reset button on the keyboard!)
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
