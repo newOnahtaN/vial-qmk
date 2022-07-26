@@ -8,7 +8,7 @@ If you want to change settings, start by looking at the keyboards\handwired\dact
 
 After the firmware is compiled, it's name should be `handwired_dactyl_manuform_6x6_promicro_vial.hex` at which point you can flash it onto both halves of the keyboard by using the qmk toolbox auto-flasher tool (don't forget to hit the physical reset button on the keyboard!).
 
-Remember that you don't have to recompile the whole firmware to change your keys, you can just use https://get.vial.today/ for that.
+Remember that you don't have to recompile the whole firmware to change your keys, you can just use https://get.vial.today/ for that. There is a file in the root of this repo that has some saved keymap configurations in Vial, it is called `vial_layout.vil`.
 
 # Quantum Mechanical Keyboard Firmware
 
